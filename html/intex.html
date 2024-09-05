@@ -1,0 +1,264 @@
+<!DOCTYPE html>      
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="auth0r" content="aiyaz khan">
+        <meta name="description" content="this page cointain all all thw things i am learing">
+<title>my first web page </title> 
+<link rel="icon" href="html5.png" type="image/x-icon">
+<link rel="stylesheet" href="main.css">
+    </head>
+
+    <body>
+        <header>
+       <h1>my goal for the year</h1>
+
+
+
+<nav aria-label="primary-navigation">
+    <ul>
+        <li>
+            <a href="#html">learn html</a>  
+        </li>
+        <li>
+            <a href="#vacation">planning on vacation</a>
+        </li>
+        <li>
+            <a href="#contact">contact me</a>
+        </li>
+    </ul>
+</nav>
+</header>
+<main>
+<hr>
+ <section id="html">
+       <h2>i am ready to learn html</h2>
+       <p>my first webpage</p> 
+<img src="img/caribbean.png" alt="caribbean logo" title="i am larning HTML5" width="300" height="300">
+       <h3>my daily schedule</h3>
+       <p>let me tell you how </p>
+    <ol>
+<li>...i larn more about web dev</li>
+<li>...i plan out my schedule</li>
+<li>...i use resources froom <abbr title="mozilla developer network ">
+<a href="https://developer.mozilla.org/en-US/">MDN</a></abbr></li>
+</ol>
+<aside>
+    <details>
+    <summary>
+guess the <mark>
+ number of hours</mark> i code per day
+    </summary>
+    <p>
+        i started  at 12:00pm finish at 8:00pm
+    </p>
+</details>
+</aside>
+<br>
+<table>
+    <caption>my daily schedule</caption>
+    <thead>
+    <tr>
+        <th>time </th>
+        <th>Activity</th>
+    </tr>
+    </thead>
+    <tbody>
+<tr>
+    <td>
+        <time datetime="8:00">8am</time>-
+        <time datetime="11:00">11am</time>
+    </td>
+    <td>write code</td>
+</tr>
+<tr>
+    <td>
+        <time datetime="11:00">11am</time>-<time datetime="12:00">12pm</time>
+    </td>
+    <td>eat lunch</td>
+</tr>
+<tr>
+    <td>
+        <time datetime="12:00">12pm</time>-<time datetime="17:00">5pm</time>
+    </td>
+    <td>other courses</td>
+</tr>
+<tr>
+    <td rowspan="2">free time</td>
+</tr>
+<tr>
+    <td>
+sleep
+    </td>
+</tr>
+</tbody>
+<tfoot>
+    <tr>
+        <td colspan="2">
+and that is what i do every day, 5 days a week. just eat, sleep, code .. and recharge
+        </td>
+    </tr>
+</tfoot>
+</table>
+</section>
+
+       <hr>
+
+br*150
+
+<section id="vacation">
+       <h2>i am also planning on a vacation</h2>
+       <p>i have been work hard and <em> really need a gate way </em></p>
+       <p>i live in <abbr title="kansas">KS</abbr> so i want to vist a beach</p>
+<section>
+
+       <h3>place i like to vist</h3>
+       <ul><li><p>i have heard good things about the caribeen.</p>
+        <figure>
+        <img src="img/caribbean.png" alt="caribbean beach" title=" i want to vist a caribbean beach" width="300" height="300" loading="lazy"> <figcaption>
+            caribbean beach gateway
+        </figcaption></figure>
+       </li>
+       <li>
+       <address>
+        margaritaville islan reserve reiviera canun <br>
+        bahai petempich puerto morelos,mexico <br>
+        colonia morelos , mexico 775880
+       </address>
+       <figure>
+       <img src="img/vacation.png" alt="canun vacation" title="it is 5 o CLOCK somewhere" height="300" width="300" loading="lazy">
+       <figcaption>
+        a caribbean vacation image
+       </figcaption>
+    </figure>
+       </li
+       >
+       </ul>
+    </section>
+       <h3>places i want to avoid</h3>
+       <dl>
+        <dt>nort pole</dt>
+        <dd>i hear this is <strong>cold</strong></dd>
+
+        <dt>south pole</dt>
+        <dd>this are also cold</dd> 
+       </dl>
+    </section>
+
+    <hr>
+    <article id="contact">
+<h2> contact me </h2>
+<p>  i will really like to hear from you</p>
+<form action="https://httpbin.org/get" method="get">
+    <fieldset> <legend>personal info</legend>
+    <p>
+<label for="firstname">first name:</label>
+<input type="text" name="firstname" id="firstname" placeholder="mohammed aiyaz khan" autocomplete="on" required autofocus></p>
+<p>
+<label for="lastname">last name:</label>
+<input type="text" name="lastname" id="lastname" placeholder="mohammed aiyaz khan" autocomplete="on" required >
+</p>
+<p>
+<label for="password">password:</label>
+<input type="password" name="password" id="password" placeholder="your secret" autocomplete="off" required >
+</p>
+<p>
+<label for="phone">phone:</label>
+<input type="tel" name="phone" id="phone" placeholder="5555555555" autocomplete="off" required pattern="[0-9]{3}[0-9]{3}[0-9]{4}">
+</p>
+<p>
+<label for="decade">favorite decade:</label>
+<input type="number" name="decade" id="decade"  autocomplete="off" min="1950" max="2024" step="5" value="1980">
+</p>
+<!-- <p>
+    <label for="coffee">favorite coffee</label>
+    <select name="coffee" id="coffee" multiple size="5">
+        <optgroup label="Coffee">
+<option value="regular coffee" selected>regular coffee</option>
+<option value="ice coffee">iced coffee</option>
+</optgroup>
+<optgroup label="espresso drinks">
+<option value="latte">latte</option>
+<option value="cappuccino">cappuccino</option>
+<option value="cortado">cortado</option>
+<option value="americano">americano</option>
+</optgroup>
+<option value="other">other</option>
+    </select>
+</p> -->
+<p>
+    <label for="coffee">favorite coffee:</label>
+    <input type="text" name="coffee" id="coffee" list="coffee-list">
+    <datalist id="coffee-list">
+        <option value="coffee">
+            <option value="latte">
+            <option value="espresso">
+            <option value="cortado">
+            <option value="americano">
+            <option value="other">
+    </datalist>
+</p>
+</fieldset>
+<br>
+<fieldset>
+    <legend>what is your favorite food?</legend>
+    <p>
+        <input type="radio"name="food" id="tacos" value="tacos">
+        <label for="tacos">tacos</label>
+    </p>
+    <p>
+        <input type="radio"name="food" id="pizza" value="pizza">
+        <label for="pizza">pizza</label>
+    </p>
+    <p>
+        <input type="radio"name="food" id="other" value="other">
+        <label for="other">other</label>
+    </p>
+</fieldset>
+<br>
+<fieldset>
+    <legend>do you have pet?</legend>
+    <p>
+        <input type="checkbox" name="pets" id="dog" value="dog">
+        <label for="dog">dog</label>
+    </p>
+    <p>
+        <input type="checkbox" name="pets" id="cat" value="cat">
+        <label for="cat">cat</label>
+    </p>
+    <p>
+        <input type="checkbox" name="pets" id="fish" value="fish">
+        <label for="fish">fish</label>
+    </p>
+    <p>
+        <input type="checkbox" name="pets" id="otherpet" value="otherpet">
+        <label for="otherpet">otherpet</label>
+    </p>
+</fieldset>
+<br>
+<fieldset>
+    <legend>send me a note</legend>
+    <label for="message">your message</label>
+    <br>
+    <textarea name="message" id="message" cols="30" rows="10" placeholder="type your message here"></textarea>
+</fieldset>
+<br>
+<button type="submit">submit</button>
+<button type="submit" formaction="https://httpbin.org/post" formmethod="post">post</button>
+<button type="reset">reset</button>
+
+</form>
+    </article>
+</main>
+<footer>
+       <hr>
+       <p>
+       &lt;&lt;&lt;&copy; <a href="about.html">mohammed aiyaz khan </a>&gt;&gt;&gt;
+    </p>
+       <p>
+        <a href="#">back to top</a>
+       </p>
+    </footer>
+    </body>
+    
+</html>
